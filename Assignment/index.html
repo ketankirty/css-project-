@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .header {
+            padding: 60px;
+            text-align: center;
+            background-color: seagreen;
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: lightgray;
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar a {
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #333;
+            color: white;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sidebar{
+            flex:30%;
+            background-color: azure;
+            padding: 20px;
+        }
+        .main-content{
+            flex: 50%;
+            background-color: antiquewhite;
+            padding: 20px;
+        }
+        /*.ketan{
+            flex:20%:
+        }*/
+        .title-img{
+            background-color: tan;
+            width: 100%;
+            max-width: 100%;
+            height:auto;
+            padding: 20px;
+        }
+        .img{
+            background-color: #ffcc5c;
+            width: 150px;
+            max-width: 50%;
+            height:100px;
+            padding: 10px;
+            border-radius: 8px;
+            position: relative;
+            animation-name: image;
+            animation-duration :4s;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+
+        }
+        @keyframes image{
+            0%{background-color: #FFFF33; left: 0px; top: 0px;}
+            25%{background-color: greenyellow; left: 400px; top: 0px;}
+            50%{background-color: aqua; left: 400px; top: 110px;}
+            75%{background-color: blueviolet; left: 0px; top: 110px;}
+            100%{background-color:seagreen;left: 0;top: 0;}
+        }
+        .footer{
+            text-align: center;
+            background-color: seagreen;
+            padding: 10px;
+        }
+        ul li{
+            list-style-type:'➡️' ;
+            width: ;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div style="background-color: pink; padding: 20px; text-align: center;">
+        <h4>This is the css assignment using previous css properties along with responsive web design.</h4>
+    </div>
+    <div class="header">
+        <h1> Welcome to responsive webpage!</h1>
+        <p>With a <strong>Adjustable and Reactive</strong> Layout</p>
+
+    </div>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="contectus.html"> Contact Us</a>
+    </div>
+    <div class="row">
+        <div class="sidebar">
+            <h2> About internships studio</h2>
+            <h5>Photos of internships studio: </h5>
+            <img src="designe & development.jpg" class="title-img" alt=" image studio" style="height: 200px;">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error soluta voluptate rem ullam excepturi
+                totam ratione, iste atque mollitia sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                aspernatur?</p>
+            <h3>
+                Web design course
+            </h3>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati eveniet nemo quae natus
+                perspiciatis ratione earum, repellat reiciendis quaerat, dolore rem. Id sequi debitis voluptatibus
+                provident dicta qui veniam sapiente autem quaerat harum?</p>
+            <img src="images.png" class="img" style="height: 100px;"> <br><br>
+        </div>
+
+    
+    <div class="main-content">
+        <h2>WESITE DESIGN</h2>
+        <H5>Starting from ,Jan 17,2023</H5>
+        <img src="web-design-header.jpg" class="title-img" alt=" image studio" style="height: 200px;">
+        <p>Web designers create the design and layout of a website with their technical expertise and knowledge while
+            keeping in mind the client’s requirements. </p>
+        <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website
+            in a way that is functional and offers a good user experience. User experience is central to the web
+            designing process. Websites have an array of elements presented in ways that make them easy to navigate. Web
+            designing essentially involves working on every attribute of the website that people interact with, so that
+            the website is simple and efficient, allows users to quickly find the information they need, and looks
+            visually pleasing. All these factors, when combined, decide how well the website is designed.</p>
+        <br>
+        <h2>Who is the intenship is for:</h2>
+        <h5>Your internship will begun on the 17 <sup>th</sup> of Jan ,2024 </h5>
+
+        <ul>
+            <li>Navigation: The ease of access your website offers to your visitors to reach different sections of the
+                website</li>
+            <li>User interaction: Offering users control by avoiding needless pop-ups, auto-play videos, or overload of
+                information</li>
+            <li>Speed: Ensuring the page loads within a couple of seconds</li>
+        </ul>
+    </div>
+    <!--<div class="ketan">
+        <h1>hii iam ketan .</h1>
+    </div>-->
+    </div>
+    <div class="footer"><marquee SCROLLAMOUNT=20 direction="left" ><h2>@Internships studio</h2></marquee>
+     </div>
+
+</body>
+
+</html>
